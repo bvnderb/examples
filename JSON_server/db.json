@@ -1,0 +1,17 @@
+{
+    "posts": [
+      { "id": "1", "title": "a first title", "views": 100, "likes": 200 },
+      { "id": "2", "title": "a second title", "views": 200, "likes": 300},
+      { "id": "3", "title": "a third title", "views": 300, "likes": 400 },
+      { "id": "4", "title": "a fourth title", "views": 400, "likes": 500},
+      { "id": "5", "title": "a fifth title", "views": 500, "likes": 600 },
+      { "id": "6", "title": "a sixth title", "views": 600, "likes": 700}
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
