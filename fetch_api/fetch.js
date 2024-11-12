@@ -37,10 +37,14 @@ function fetchData() {
 
 const btnReset = document.getElementById('clear');
 btnReset.addEventListener('click', () => {
-    display.innerHTML = '';
+    display.innerHTML = `<h1>Your content has been reset.</h1>`;
 })
 
 const btnReload = document.getElementById('reload');
-btnReload.addEventListener('click', fetchData);
+btnReload.addEventListener('click', () => {
+    display.innerHTML = '';
+    display.innerHTML = `<h3>Dataset reloaded.</h3>`
+    fetchData()
+});
 
 fetchData();
